@@ -3,7 +3,7 @@
 % MIT License
 % Copyright (c) 2023 Tahereh S. Zarghami (tszarghami{at}gmail.com)
 % Date: 14 April 2023
-% The code has dependencies on SPM: https://www.fil.ion.ucl.ac.uk/spm/
+% The code has dependencies on SPM12: https://www.fil.ion.ucl.ac.uk/spm/
 
 %% Import DCMs from Data folder
 load('CSDs.mat')
