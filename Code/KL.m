@@ -9,6 +9,7 @@ function [dKL] = KL(p,q)
 
 % Copyright (c) 2014, Meizhu Liu (meizhu.liu{at}yahoo.com)
 % All rights reserved.
+% See LICENSE file
 % Source: https://www.mathworks.com/matlabcentral/fileexchange/46090-kl-divergence-between-gaussian-distributions
 
 % I have slightly modified Meizhu's original code --> pinv and regularization

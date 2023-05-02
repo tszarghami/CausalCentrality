@@ -31,6 +31,7 @@ function newmap = bluewhitered(m)
 
 % 	Copyright (c) 2009, Nathan Childress
 % 	All rights reserved.
+% 	See LICENSE file
 % 	Source: https://www.mathworks.com/matlabcentral/fileexchange/4058-bluewhitered
 
 

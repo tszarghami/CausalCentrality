@@ -1,9 +1,8 @@
 % Causal Centrality Demo
 
-% MIT License
-% Copyright (c) 2023 Tahereh S. Zarghami (tszarghami{at}gmail.com)
-% Date: 14 April 2023
-% The code has dependencies on SPM12: https://www.fil.ion.ucl.ac.uk/spm/
+% Tahereh S. Zarghami (tszarghami{at}gmail.com)
+% 14 April 2023
+% See LICENSE file
 
 %% Import DCMs from Data folder
 load('CSDs.mat')

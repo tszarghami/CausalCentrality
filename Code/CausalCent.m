@@ -1,7 +1,7 @@
 function [CCent] = CausalCent(CSDs,PEB)
 
-% MIT License
-% Copyright (c) 2023 Tahereh S. Zarghami (tszarghami{at}gmail.com)
+% Tahereh S. Zarghami (tszarghami{at}gmail.com)
+% See LICENSE file
 
     n = sqrt(numel(PEB.Ep)); % #nodes
     Ns = numel(CSDs); % #subj 
