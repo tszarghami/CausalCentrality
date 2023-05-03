@@ -1,6 +1,6 @@
 function [CCent] = CausalCent(CSDs,PEB)
 
-% Tahereh S. Zarghami (tszarghami{at}gmail.com)
+% Tahereh S. Zarghami (tszarghami{at}gmail{dot}com)
 % See LICENSE file
 
     n = sqrt(numel(PEB.Ep)); % #nodes

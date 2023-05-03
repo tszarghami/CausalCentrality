@@ -1,6 +1,6 @@
 % Causal Centrality Demo
 
-% Tahereh S. Zarghami (tszarghami{at}gmail.com)
+% Tahereh S. Zarghami (tszarghami{at}gmail{dot}com)
 % 14 April 2023
 % See LICENSE file
 
