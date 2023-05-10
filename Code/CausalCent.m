@@ -1,10 +1,10 @@
 function [CCent] = CausalCent(CSDs,PEB)
 
-% Tahereh S. Zarghami (tszarghami{at}gmail{dot}com)
+% Tahereh S. Zarghami (tszarghami{at}gmail)
 % See LICENSE file
 
     n = sqrt(numel(PEB.Ep)); % #nodes
-    Ns = numel(CSDs); % #subj 
+    Ns = numel(CSDs); % #subj
     Ff = PEB.F; % free energy of full model
     
     for node = 1:n 
@@ -23,7 +23,7 @@ function [CCent] = CausalCent(CSDs,PEB)
             shrink_ind = find(shrink); % linear index
             noshrink_ind = find(shrink == 0);
         
-            % Shrink connections to zero (with precise null priors)
+            % Shrink selected connections to zero (with precise null priors)
             A(shrink_ind) = 0;
             rE = pE; rE.A = A;
             pC(shrink_ind,shrink_ind) = 0;

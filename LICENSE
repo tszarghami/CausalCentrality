@@ -92,6 +92,7 @@ The following functions are part of SPM12:
 	spm_dcm_peb.m
 	
 Source: https://www.fil.ion.ucl.ac.uk/spm/software/spm12/ OR https://github.com/spm/spm12
+According to SPM12 license (https://github.com/spm/spm12/blob/master/LICENCE.txt):
 
 % SPM is copyright, distributed under the GNU General Public Licence.
 %__________________________________________________________________________
